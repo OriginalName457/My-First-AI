@@ -5,11 +5,11 @@ from googleapiclient.discovery import build
 from collections import OrderedDict
 
 # Initialize global variables
-openai.api_key = "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"
-GOOGLE_API_KEY = "AIzaSyCaCd2geSBJ1Yxar7wiF-S6hrQs6Kxjhqs"
-CSE_ID = "41fec49dddba84b2f"
+openai.api_key = "ADD YOUR API KEY HERE"
+GOOGLE_API_KEY = "ADD YOUR GOOGLE API KEY HERE"
+CSE_ID = "ADD YOUR CUSTOM SEARCH ID HERE"
 MODEL = "gpt-3.5-turbo"
-PERSONA_DIRECTORY = r"C:\Users\13wie\OneDrive\Desktop\Workspace Realm"
+PERSONA_DIRECTORY = r"ADD YOUR DIRECTORY HERE"
 CACHE_SIZE = 1000
 cache = OrderedDict()
 
